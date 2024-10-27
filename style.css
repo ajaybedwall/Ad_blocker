@@ -1,0 +1,25 @@
+
+.extension-banner {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 8px 15px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.extension-banner .close-btn {
+  margin-left: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.extension-banner .close-btn:hover {
+  color: #e74c3c;
+}
